@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../spotify"
+		},
+		{
+			"path": "../clone"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "spotify"
+	}
+}

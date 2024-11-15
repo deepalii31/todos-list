@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="s logo.jpeg" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        
+        <div class="songlist">
+            <h3>Best of NCS - No Copyright Sounds </h3>
+            <div class="songitemcontainer">
+            <div>
+              <div class="songitem">
+                <img src="cover.jpg" alt="1">
+                <span class="songname">soni soni</span>
+                <span class="songlistplay"><span class="timestamp">2:56 <i id="0" class="fa-regular songitemplay fa-circle-play"></i></span></span>
+              </div> 
+              <div class="songitem">
+                <img src="cover2.jpg" alt="2">
+                <span class="songname">Gurjari</span>
+                <span class="songlistplay"><span class="timestamp">2:40 <i id="1" class="fa-regular songitemplay fa-circle-play"></i></span></span>
+              </div> 
+              <div class="songitem">
+                <img src="cover33.jpeg" alt="3">
+                <span class="songname">Admirin</span>
+                <span class="songlistplay"><span class="timestamp">3:34 <i id="2" class="fa-regular songitemplay fa-circle-play"></i></span></span>
+              </div> 
+              <div class="songitem">
+                <img src="cover4.jpg" alt="4">
+                <span class="songname">One Love</span>
+                <span class="songlistplay"><span class="timestamp">2:39 <i id="3" class="fa-regular songitemplay fa-circle-play"></i></span></span>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class="songbanner"></div> 
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+            <i class="fa-regular fa-3x fa-circle-play" id="masterplay"></i>
+            <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="gif.gif" width="40px" alt="" id="gif" > <span id="mastersongname">soni soni</span>
+           
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/fa7124eb87.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
